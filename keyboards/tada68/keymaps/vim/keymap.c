@@ -47,6 +47,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______, _______, _______, _______, _______, _______, KC_HOME, _______, _______, _______, _______, _______, KC_INS,
         _______, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______, KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT, _______, _______,          _______, KC_HOME,
         _______,          KC_MPRV, KC_MPLY, KC_MNXT, _______, _______,  KC_END, _______, _______, _______, _______, KC_BTN1, KC_MS_U, KC_END,
-        _______, _______, _______,                            _______,                   _______, _______, KC_BTN2, KC_MS_L, KC_MS_D, KC_MS_R
+        _______,  GUI_ON, _______,                            _______,                   _______, _______, KC_BTN2, KC_MS_L, KC_MS_D, KC_MS_R
     ),
 };
